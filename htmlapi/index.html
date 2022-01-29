@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JaxoDev's HTML Webhook API</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Welcome!</h1><br>
+    <p>Input the fields below to send a message.</p>
+    <input id="url" value="Webhook URL">
+    <input id="message" value="Message">
+    <p>Optional Fields:</p>
+    <input id="name" value="Bot Name">
+    <input id="pfp" value="Bot Picture URL">
+    <br>
+    <br>
+    <button onclick="gen()">Generate URL</button>
+    <p id="output">Output URL Here!</p>
+    <script src="script.js"></script>
+  </body>
+</html>
